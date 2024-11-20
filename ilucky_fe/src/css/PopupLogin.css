@@ -1,0 +1,63 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99 !important;
+  }
+
+.popup-content{
+    border: 5px solid rgb(255, 228, 78);
+    color: black;
+    
+  }
+  
+  .popup-content {
+    background: #8f0000;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 51; /* Đảm bảo nội dung cũng ở trên cùng */
+  }
+.title-button-login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    margin-bottom: 5%;
+}
+.close-button{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(224, 198, 50);
+}
+.popup-title{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+}
+#username{
+  margin-left: 10px;
+}
+#password{
+  margin-left: 15px;
+}
+.form-group{
+  margin: 20px;
+}
+.submit-button{
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 45%;
+}
+.label {
+  font-weight: 900; 
+  font-size: 16px;  
+}
+
+  
